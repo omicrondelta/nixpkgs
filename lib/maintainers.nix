@@ -63,6 +63,7 @@
   msackman = "Matthew Sackman <matthew@wellquite.org>";
   ocharles = "Oliver Charles <ollie@ocharles.org.uk>";
   offline = "Jaka Hudoklin <jakahudoklin@gmail.com>";
+  omicrondelta = "Dave Whyte <gpwriter@telus.net>"; 
   orbitz = "Malcolm Matalka <mmatalka@gmail.com>";
   page = "Carles Pagès <page@cubata.homelinux.net>";
   phreedom = "Evgeny Egorochkin <phreedom@yandex.ru>";

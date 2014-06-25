@@ -3918,6 +3918,8 @@ let
   gnumake40  = callPackage ../development/tools/build-managers/gnumake/4.0  { };
   gnumake = gnumake382;
 
+  cook = callPackage ../development/tools/build-managers/cook { };
+
   gob2 = callPackage ../development/tools/misc/gob2 { };
 
   gradle = callPackage ../development/tools/build-managers/gradle { };
@@ -10834,7 +10836,9 @@ let
 
   ### MISC
 
-  atari800 = callPackage ../misc/emulators/atari800 { };
+  atari800_2 = callPackage ../misc/emulators/atari800/atari800-2.2.1.nix { };
+  atari800_3 = callPackage ../misc/emulators/atari800 { };
+  atari800 = atari800_3;
 
   ataripp = callPackage ../misc/emulators/atari++ { };
 
@@ -10902,7 +10906,9 @@ let
 
   guix = callPackage ../tools/package-management/guix { };
 
-  gxemul = callPackage ../misc/gxemul { };
+  gxemul_0_4_6 = callPackage ../misc/emulators/gxemul-0.4.6.nix { };
+  gxemul_0_4_7 = callPackage ../misc/emulators/gxemul/ { };
+  gxemul = gxemul_0_4_7;
 
   hatari = callPackage ../misc/emulators/hatari { };
 
@@ -11242,6 +11248,7 @@ let
 
   mg = callPackage ../applications/editors/mg { };
 
+  onyx = callPackage ../development/interpreters/onyx { };
 
   # Attributes for backward compatibility.
   adobeReader = adobe-reader;
